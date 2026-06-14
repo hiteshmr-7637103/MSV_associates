@@ -64,7 +64,22 @@ To compile the React frontend and serve it directly from the Express backend pro
    npm run build
    ```
 2. Start the Express server to serve both API and frontend static assets:
-   ```bash
-   npm start --prefix backend
-   ```
+    ```bash
+    npm start --prefix backend
+    ```
+
+## Setup Guide
+
+### Prerequisites (see [requirements.txt](file:///E:/MSV_Associates/requirements.txt))
+
+- Node.js (v18+)
+- npm (bundled with Node)
+- Git
+- (Optional) MongoDB for production
+
+### Installation
+
+```bash
+npm run install-all
+```
 3. Set your `MONGODB_URI` environment variable to connect it to a cloud DB (e.g., MongoDB Atlas).

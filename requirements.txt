@@ -1,0 +1,20 @@
+# Requirements for MSV Insurance Workflow Management System
+
+## Core Dependencies
+- **Node.js** (version 18 or higher) – JavaScript runtime
+- **npm** (bundled with Node) – Package manager
+- **Git** – Version control system
+
+## Optional Services
+- **MongoDB** – Database for production deployments (can use local JSON fallback for development)
+
+## Development Tools
+- **Concurrently** – Run backend and frontend simultaneously (installed via npm)
+- **Vite** – Development server and bundler for the React frontend
+- **Express** – Backend web framework (Node.js)
+- **Mongoose** – MongoDB ODM (if using MongoDB)
+
+## Platform
+- Windows 10/11 (PowerShell) – Tested environment
+
+*These are the prerequisites listed in the project’s setup guide. Install Node.js from https://nodejs.org/, Git from https://git-scm.com/, and MongoDB from https://www.mongodb.com/ if needed.*
